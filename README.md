@@ -72,25 +72,36 @@ npx create-felix-devops
 # 📦 새 프로젝트 생성 방법
 
 ### 방법 1 (권장)
+
+```bash
 npm init felix-devops
+```
 
 ### 방법 2
+
+```bash
 npx create-felix-devops
+```
 
 ---
 
 # 🚀 생성 후 초기 세팅
 
+```bash
 cd my-app
 npm install
 git init
 git add .
 git commit -m "chore: init"
+```
 
 (선택)
+
+```bash
 git remote add origin <YOUR_REPO>
 git branch -M main
 git push -u origin main
+```
 
 ---
 
@@ -99,8 +110,10 @@ git push -u origin main
 ❌ git commit -m 직접 사용 금지  
 ✅ 항상 Commitizen 사용
 
+```bash
 git add -A
 npm run commit
+```
 
 질문에 답하면 표준 커밋 메시지가 자동 생성됩니다.
 
@@ -146,13 +159,17 @@ main push = 자동 릴리즈
 # 🔄 실제 개발 흐름
 
 1. 기능 개발
+   ```bash
    git checkout -b feature/login
    npm run commit
+   ```
 
 2. 병합
+   ```bash
    git checkout main
    git merge feature/login
    git push
+   ```
 
 3. 끝
 
@@ -162,7 +179,9 @@ GitHub Release 자동 생성
 
 # 🧪 릴리즈 미리보기 (선택)
 
+```bash
 npx semantic-release --dry-run
+```
 
 실제 릴리즈 없이 버전/노트만 확인 가능
 
@@ -170,12 +189,14 @@ npx semantic-release --dry-run
 
 # 📂 생성되는 프로젝트 구조
 
+```text
 my-app/
 - package.json
 - .releaserc.json
 - CHANGELOG.md
 - docs/RELEASE_AUTOMATION.md
 - .github/workflows/release.yml
+```
 
 ---
 
