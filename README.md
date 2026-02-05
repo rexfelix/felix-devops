@@ -1,3 +1,6 @@
+# My Project
+[![Release](https://img.shields.io/github/v/release/rexfelix/felix-devops?label=version)](https://github.com/rexfelix/felix-devops/releases)
+
 # create-felix-devops
 
 A customized DevOps project generator CLI.
