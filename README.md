@@ -1,5 +1,5 @@
 # My Project
-[![Release](https://img.shields.io/github/v/release/rexfelix/felix-devops?label=version)](https://github.com/rexfelix/felix-devops/releases)
+[![Version](https://img.shields.io/github/package-json/v/rexfelix/felix-devops)](https://github.com/rexfelix/felix-devops)
 
 # create-felix-devops
 
@@ -295,6 +295,25 @@ jobs:
 이제 `git add .`, `git commit` 후 `main` 브랜치에 푸시하면 설정이 완료됩니다.
 이후 커밋 시 `npm run commit`을 사용하세요.
 
+
+---
+
+# 🏷️ 버전 뱃지 설정 방법
+
+이 템플릿은 기본적으로 `package.json` 버전을 표시하는 뱃지를 사용합니다.
+하지만 GitHub Releases와 연동된 뱃지를 사용하고 싶다면 아래 두 가지 옵션 중 선택할 수 있습니다.
+
+### 옵션 1: package.json 버전 표시 (기본값, 즉시 반영)
+현재 코드의 `package.json`에 명시된 버전을 보여줍니다. 릴리즈가 없어도 버전이 보입니다.
+```markdown
+[![Version](https://img.shields.io/github/package-json/v/rexfelix/felix-devops)](https://github.com/rexfelix/felix-devops)
+```
+
+### 옵션 2: GitHub Release 버전 표시 (릴리즈 후 작동)
+실제로 GitHub에 Release가 생성된 버전만 보여줍니다. (Tag가 없으면 `no release`로 뜰 수 있음)
+```markdown
+[![Release](https://img.shields.io/github/v/release/rexfelix/felix-devops?label=version)](https://github.com/rexfelix/felix-devops/releases)
+```
 
 ---
 
