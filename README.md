@@ -246,7 +246,8 @@ npm install -D commitizen cz-conventional-changelog semantic-release @semantic-r
     "commitizen": {
       "path": "cz-conventional-changelog"
     }
-  }
+  },
+  "name": "{MY-APP}"
 }
 ```
 
