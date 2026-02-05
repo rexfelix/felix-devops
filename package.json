@@ -1,6 +1,6 @@
 {
   "name": "create-felix-devops",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A customized DevOps project generator CLI",
   "bin": {
     "create-felix-devops": "index.js"
