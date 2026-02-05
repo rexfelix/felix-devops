@@ -1,4 +1,3 @@
-# My Project
 [![Version](https://img.shields.io/github/package-json/v/rexfelix/felix-devops)](https://github.com/rexfelix/felix-devops)
 
 # create-felix-devops
